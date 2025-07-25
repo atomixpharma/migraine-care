@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <h3 className="font-bold text-xl mb-2">Fast-Acting Migraine Relief</h3>
             <p className="mb-4 text-sm">Treats migraine attacks as they happen. Available in pill or nasal spray form.</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Start Relief Treatment</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Get Started</button>
           </div>
           <div className="border rounded-xl p-6 text-center shadow">
             <div className="mb-4">
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <h3 className="font-bold text-xl mb-2">Daily Migraine Prevention</h3>
             <p className="mb-4 text-sm">Daily medication to reduce how often migraines occur.</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Start Prevention Plan</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Get Started</button>
           </div>
         </div>
       </section>
