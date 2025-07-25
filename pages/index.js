@@ -112,6 +112,17 @@ export default function Home() {
           <p className="text-sm text-gray-500">Have insurance? Upload during your visit and we’ll bill your insurer directly.</p>
         </div>
       </section>
+
+      <section className="bg-gray-100 rounded-xl py-16 px-4 mt-24 text-center">
+  <h2 className="text-3xl font-semibold mb-6">Ready to get started?</h2>
+  <a
+    href="/intake"
+    className="inline-block bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition"
+  >
+    Get started today
+  </a>
+</section>
+
     </div>
   );
 }
