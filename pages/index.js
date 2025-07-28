@@ -18,7 +18,7 @@ export default function Home() {
             <li className="flex items-center"><span className="mr-2">✔</span> Insurance concierge to reduce cost</li>
             <li className="flex items-center"><span className="mr-2">✔</span> Free shipping or pharmacy pick-up</li>
           </ul>
-          <Link href="/questionnaire" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">
+          <Link href="/signup/account" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded">
             Get Started →
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <h3 className="font-bold text-xl mb-2">Fast-Acting Migraine Relief</h3>
             <p className="mb-4 text-sm">Treats migraine attacks as they happen. Available in pill or nasal spray form.</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Get Started</button>
+            <Link href="/signup/account" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded block">Get Started</Link>
           </div>
           <div className="border rounded-xl p-6 text-center shadow">
             <div className="mb-4">
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <h3 className="font-bold text-xl mb-2">Daily Migraine Prevention</h3>
             <p className="mb-4 text-sm">Daily medication to reduce how often migraines occur.</p>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">Get Started</button>
+            <Link href="/signup/account" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded block">Get Started</Link>
           </div>
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-10">
           <div className="text-center">
             <div className="mb-4">
-              <img src="/icons/form.svg" alt="Step 1" className="mx-auto h-20" />
+              <Image src="/icons/form.svg" alt="Step 1" width={80} height={80} className="mx-auto h-20" />
             </div>
             <h3 className="font-bold text-lg mb-2">Step 1: Online Assessment</h3>
             <p>Answer questions about your migraine symptoms and medical history.</p>
@@ -68,7 +68,7 @@ export default function Home() {
 
           <div className="text-center">
             <div className="mb-4">
-              <img src="/icons/doctor.svg" alt="Step 2" className="mx-auto h-20" />
+              <Image src="/icons/doctor.svg" alt="Step 2" width={80} height={80} className="mx-auto h-20" />
             </div>
             <h3 className="font-bold text-lg mb-2">Step 2: Review by Prescriber</h3>
             <p>A licensed healthcare provider will review your intake form and follow up if needed.</p>
@@ -76,7 +76,7 @@ export default function Home() {
 
           <div className="text-center">
             <div className="mb-4">
-              <img src="/icons/delivery.svg" alt="Step 3" className="mx-auto h-20" />
+              <Image src="/icons/delivery.svg" alt="Step 3" width={80} height={80} className="mx-auto h-20" />
             </div>
             <h3 className="font-bold text-lg mb-2">Step 3: Prescription Delivery</h3>
             <p>If approved, your migraine medication will be shipped directly to your door.</p>
@@ -115,12 +115,12 @@ export default function Home() {
 
       <section className="bg-gray-100 rounded-xl py-16 px-4 mt-24 text-center">
   <h2 className="text-3xl font-semibold mb-6">Ready to get started?</h2>
-  <a
-    href="/intake"
+  <Link
+    href="/signup/account"
     className="inline-block bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition"
   >
     Get started today
-  </a>
+  </Link>
 </section>
 
     </div>
